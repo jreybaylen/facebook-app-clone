@@ -5,7 +5,10 @@ interface SVGProps {
 }
 
 interface IconSVG extends Partial<SVGProps> {
-    name: 'facebook' | 'home' | 'flag' | 'page' | 'watch' | 'play' | 'notification' | 'bell' | 'menu' | 'setting' | 'user' | 'chat' | 'search'
+    name: 'facebook' | 'home' | 'flag' | 'page' | 'watch' | 'play' | 'notification' | 'bell' | 'menu' | 'setting' | 'user' | 'chat' | 'search' | 'public' | 'earth'
 }
 
-export type { SVGProps, IconSVG }
+export type {
+    IconSVG,
+    SVGProps
+}

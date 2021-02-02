@@ -9,12 +9,12 @@ const styles = StyleSheet.create({
     },
     myDayItem: {
         width: 100,
-        padding: 15,
         height: 150,
+        borderWidth: 1,
         marginRight: 10,
-        borderWidth: 0.5,
         borderRadius: 15,
-        borderColor: '#000'
+        overflow: 'hidden',
+        borderColor: '#ccc'
     }
 })
 

@@ -1,5 +1,16 @@
 interface CardProps {
-
+    name: string
+    caption: string
+    photo: JSX.Element
+    reaction: Array<JSX.Element>
+    thumbnail: Array<JSX.Element>
+    contentReactions: Array<string>
+    emojiReactions: Array<JSX.Element>
 }
 
-export type { CardProps }
+type PartialCardProps = Partial<CardProps>
+
+export type {
+    CardProps,
+    PartialCardProps
+}

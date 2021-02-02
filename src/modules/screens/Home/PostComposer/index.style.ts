@@ -12,9 +12,10 @@ const styles = StyleSheet.create({
     author: {
         width: 40,
         height: 40,
-        borderWidth: 0.5,
+        borderWidth: 1,
         marginRight: 10,
         borderRadius: 100,
+        overflow: 'hidden',
         borderColor: '#ccc',
         backgroundColor: '#c1c7d0'
     },

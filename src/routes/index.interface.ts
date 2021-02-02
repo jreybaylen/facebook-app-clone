@@ -7,4 +7,6 @@ interface RoutesProps {
     component: ComponentClass | FunctionComponent
 }
 
-export type { RoutesProps }
+export type {
+    RoutesProps
+}

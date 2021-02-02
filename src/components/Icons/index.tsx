@@ -8,6 +8,7 @@ import { PlaySVG } from './Play'
 import { BellSVG } from './Bell'
 import { MenuSVG } from './Menu'
 import { UserSVG } from './User'
+import { EarthSVG } from './Earth'
 import { SearchSVG } from './Search'
 import { MessageSVG } from './Message'
 import { FacebookSVG } from './Facebook'
@@ -16,6 +17,9 @@ function Icon (props: IconSVG): JSX.Element | null {
     const { name, ...rest } = props
 
     switch (name) {
+        case 'earth':
+        case 'public':
+            return <EarthSVG { ...rest } />
         case 'search':
             return <SearchSVG { ...rest } />
         case 'chat':

@@ -9,4 +9,7 @@ interface TabBarProps extends SceneRendererProps {
     navigationState: NavigationState<RoutesProps> 
 }
 
-export type { RoutesProps, TabBarProps }
+export type {
+    RoutesProps,
+    TabBarProps
+}
