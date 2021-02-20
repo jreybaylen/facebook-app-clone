@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
     cardBody: {
-        marginTop: 5
+        marginVertical: 5
     },
     cardBodyContent: {
         lineHeight: 20,

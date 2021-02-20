@@ -1,4 +1,6 @@
-interface CardProps {
+import { CardActionsProps } from '@components/Card/Actions/index.interface'
+
+interface CardProps extends CardActionsProps {
     name: string
     caption: string
     photo: JSX.Element

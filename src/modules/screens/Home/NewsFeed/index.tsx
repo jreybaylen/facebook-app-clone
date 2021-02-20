@@ -18,11 +18,28 @@ function NewsFeed () {
             <Card
                 name={ name }
                 caption={ caption }
+                actions={ [
+                    { label: 'Like', handler: () => { } }
+                ] }
+            />
+            <Card
+                name={ name }
+                thumbnail={ [
+                    <ImagePlaceholder key="user-1" />
+                ] }
+                actions={ [
+                    { label: 'Like', handler: () => { } },
+                    { label: 'Comment', handler: () => { } }
+                ] }
             />
             <Card
                 name={ name }
                 caption={ caption }
-                thumbnail={ [ <ImagePlaceholder key="user-1" /> ] }
+                actions={ [
+                    { label: 'Like', handler: () => { } },
+                    { label: 'Comment', handler: () => { } },
+                    { label: 'Share', handler: () => { } }
+                ] }
             />
         </React.Fragment>
     )

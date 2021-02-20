@@ -5,6 +5,7 @@ import { styles } from './index.style'
 import { PartialCardProps } from './index.interface'
 
 import { CardBody } from './Body'
+import { Actions } from './Actions'
 import { CardHeader } from './Header'
 import { CardOptions } from './Options'
 
@@ -21,6 +22,7 @@ function Card (props: PartialCardProps): JSX.Element {
                 caption={ rest.caption }
                 thumbnail={ rest.thumbnail }
             />
+            <Actions actions={ rest.actions } />
         </CardContainer>
     )
 
